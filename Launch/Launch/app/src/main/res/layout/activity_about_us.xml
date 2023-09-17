@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUS">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="32dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:src="@drawable/carwashlogo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SEBOTSANE CAR WASH (PTY) LTD is a sole owned company started by a young male with a passion for well-maintained cars.The company is based in the west of Pretoria. The company provides services that are flexible unlike traditional carwashes, we give the client a option of a custom/basic car wash services tailored according to their current needs and preference. We also supply basic car cleaning and maintenance supplies."
+            android:textAlignment="center" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

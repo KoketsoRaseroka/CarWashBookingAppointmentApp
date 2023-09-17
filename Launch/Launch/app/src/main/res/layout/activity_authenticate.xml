@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Authenticate">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="vertical"
+        android:weightSum="4"
+        android:layout_marginTop="40dp">
+
+    <TextView
+            android:id="@+id/textV1"
+            android:layout_width="match_parent"
+            android:layout_height="239dp"
+            android:paddingTop="145dp"
+            android:text="Authenticate"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+
+    <TextView
+            android:id="@+id/textV3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:text="Please enter the 5 digit verification code sent to your registered email address"
+            android:textAlignment="center" />
+
+
+
+
+
+
+    <EditText
+            android:id="@+id/otpET1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLines="1"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:layout_marginStart="10dp"
+            android:textStyle="bold"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"/>
+
+
+        <EditText
+            android:id="@+id/otpET2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLines="1"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:layout_marginStart="10dp"
+            android:textStyle="bold"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/otpET3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLines="1"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:layout_marginStart="10dp"
+            android:textStyle="bold"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/otpET4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLines="1"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:layout_marginStart="10dp"
+            android:textStyle="bold"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/otpET5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLines="1"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:layout_marginStart="10dp"
+            android:textStyle="bold"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#000080"
+            android:text="Verify" />
+
+
+
+
+    </LinearLayout>
+</RelativeLayout>

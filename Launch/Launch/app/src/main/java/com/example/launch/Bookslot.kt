@@ -1,0 +1,12 @@
+package com.example.launch
+
+import androidx.appcompat.app.AppCompatActivity
+import android.os.Bundle
+
+class Bookslot : AppCompatActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_bookslot)
+
+    }
+}
